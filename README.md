@@ -37,8 +37,8 @@ Tour planning evolves over a long back-and-forth as constraints get added, remov
 ## Getting started
 
 ```bash
-git clone https://github.com/sofialq/MUI402-Capstone.git
-cd MUI402-Capstone
+git clone https://github.com/sofialq/TourBot.git
+cd TourBot
 pip install -r requirements.txt
 ```
 
