@@ -4,7 +4,7 @@
 
 ## Overview
 
-TourBot helps plan multi-city tour itineraries for artists and bands by reasoning about more than just geography. Built with Python, Streamlit, and the Claude API, it routes tours with awareness of festival schedules, local events, and where an artist's fanbase is mostly concentrated, with the goal of getting shows in front of more fans rather than just hitting the most geographically convenient cities.
+TourBot helps plan multi-city tour itineraries for artists and bands by reasoning about more than just geography. Built with Python, Streamlit, and the Claude API, it routes tours with awareness of festival schedules, local events, and where an artist's fanbase is mostly concentrated, with the goal of getting shows in front of more fans rather than just hitting the most convenient cities.
 
 ## How it works
 
@@ -13,10 +13,10 @@ TourBot helps plan multi-city tour itineraries for artists and bands by reasonin
 Instead of optimizing a route purely on geographic proximity, TourBot factors in:
 
 - **Fanbase density** — prioritizing cities and regions where an artist has a strong following
-- **Proximity to nearby cities** — sequencing stops to minimize unnecessary travel between dates as well as allow fans who don't have a stop in their city to travel
+- **Proximity to nearby cities** — sequencing stops so fans without a date in their own city can still reaonsably travel to one
 - **Event conflicts** — checking for overlapping festivals, sporting events, and other major local events that could compete for audience attention
 
-The goal is a tour that reaches more fans, minimizing the struggles fans may face when considering to buy concert tickets, such as scheduling conflicts and ability to travel.
+The goal is a tour that reaches more fans.
 
 ### Multi-turn conversation memory
 
